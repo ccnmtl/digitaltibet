@@ -5,6 +5,12 @@ body {
     color: #fff;
 }
 
+a:link,
+a:visited {
+    color: #E9B34A;
+    text-decoration: none;
+}
+
 #header {
     background-color: #000;
 }
@@ -85,4 +91,22 @@ ul.links li {
 ul.primary-links li a:hover, ul.primary-links li a.active {
     color: #E9B34A;
     text-decoration: underline;
+}
+
+ul.secondary-links {
+    width: 100%;
+    background: #333 none repeat scroll 0% 0%;
+    height: 40px;
+    padding: 0px;
+    float: left;
+    clear: left;
+    position: relative;
+    z-index: 4;
+}
+
+ul.secondary-links li {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    background-image: none;
 }
