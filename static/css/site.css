@@ -2,8 +2,87 @@ body {
     margin: 0px auto;
     background-color: #666;
     font-family: arial,helvetica,sans-serif;
+    color: #fff;
 }
 
 #header {
     background-color: #000;
+}
+
+#left {
+    background-color: #000;
+    background-image: url('../img/home_talkingstaff_sm.jpg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    width: 292px;
+    min-width: 292px;
+    position: absolute;
+    bottom: 0px !important;
+    left: 0px;
+    top: 100px;
+    max-height: 100%;
+    min-height: 505px;
+    height: auto;
+}
+
+#middle {
+    width: 230px;
+    position: absolute;
+    bottom: 25px;
+    left: 292px;
+    top: 100px;
+    min-height: 455px;
+    height: auto;
+    border-width: 15px medium 15px 15px;
+    border-style: solid none solid solid;
+    border-color: #4F4F4F -moz-use-text-color #4F4F4F #4F4F4F;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+ul.primary-links {
+    margin-top: 0px;
+    margin-right: 5px;
+    padding-left: 10px;
+    float: right;
+    position: relative;
+    z-index: 4;
+    color: #FFF;
+    border-width: 0px 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color #666 #666;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+ul.links li, ul.inline li {
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: none;
+}
+ul.primary-links li {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+ul.links li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 0.5em;
+}
+
+ul.primary-links li a:hover, ul.primary-links li a.active {
+    color: #E9B34A;
+    text-decoration: underline;
 }
