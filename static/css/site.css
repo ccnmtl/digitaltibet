@@ -3,3 +3,7 @@ body {
     background-color: #666;
     font-family: arial,helvetica,sans-serif;
 }
+
+#header {
+    background-color: #000;
+}
