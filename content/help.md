@@ -7,20 +7,20 @@ title = "Help Page"
 
 Please post to the troubleshooting discussion board with your questions, it is monitored daily. Please post to the feedback board with your comments and feedback. Until further notice, the discussion boards are restricted to access by Columbia students and faculty only. Public users who would like to know more or contribute to this project should contact the project team through CCNMTL
 
-The site has two non-admin user types: A ) general public users, and, B) students registered in Professor Tuttle's courses.
+The site has two non-admin user types: A) general public users, and, B) students registered in Professor Tuttle's courses.
 
 ## General Public, All Users
 
 From the home page:
 
-1) Click "Browse Collection"
-2) Enter search keyword, select filters, or simply browse all objects.
-3) Click on an image, or click "examine and annotate" to be taken to the examination space.
-4) Click pan to move the image around. Click "+" or "-" to zoom in and out.
-5) Click the "Annotations" tab on the right side to see all annotations that have been made on the object.
-6) You can show/hide annotations by author if there are too many displayed at one time, or if you are looking for work by a particular person.
-7) You can navigate the annotations by either putting your mouse over a marker on the image, or by clicking through annotation labels on the right side.
-8) Click "Explore Collection" to return to main search and browse space.
+1. Click "Browse Collection"
+2. Enter search keyword, select filters, or simply browse all objects.
+3. Click on an image, or click "examine and annotate" to be taken to the examination space.
+4. Click pan to move the image around. Click "+" or "-" to zoom in and out.
+5. Click the "Annotations" tab on the right side to see all annotations that have been made on the object.
+6. You can show/hide annotations by author if there are too many displayed at one time, or if you are looking for work by a particular person.
+7. You can navigate the annotations by either putting your mouse over a marker on the image, or by clicking through annotation labels on the right side.
+8. Click "Explore Collection" to return to main search and browse space.
 
 ## Registered Users (Including Students in Professor Tuttle's Courses)
 
