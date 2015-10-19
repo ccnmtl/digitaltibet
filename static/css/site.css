@@ -5,6 +5,10 @@ body {
     color: #fff;
 }
 
+body.page-engaging-digital-tibet {
+    background-color: #000;
+}
+
 a:link,
 a:visited {
     color: #E9B34A;

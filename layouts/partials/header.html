@@ -2,11 +2,17 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Engaging Digital Tibet: {{ .Title }}</title>
+
+        {{ if eq .Title .Site.Title }}
+        <title>Home | {{ .Site.Title }}</title>
+        {{ else }}
+        <title>{{ .Title }} | {{ .Site.Title }}</title>
+        {{ end }}
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
+    <body class="page-{{ .Title | urlize }}">
 
         <nav class="navbar navbar-inverse">
             <a class="navbar-brand" href="/" title="Engaging Digital Tibet">
