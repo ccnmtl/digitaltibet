@@ -60,12 +60,7 @@ nav.navbar-inverse .navbar-text {
     height: auto;
     border-width: 15px medium 15px 15px;
     border-style: solid none solid solid;
-    border-color: #4F4F4F -moz-use-text-color #4F4F4F #4F4F4F;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image: none;
+    border-color: #4F4F4F;
     background-color: #333;
     padding: 10px;
     color: #fff;
