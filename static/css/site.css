@@ -138,3 +138,12 @@ ul.secondary-links li {
 .panzoomer {
     color: #000;
 }
+
+.object-preview-image {
+    margin-right: 10px;
+}
+
+.object-preview-image img {
+    max-width: 200px;
+    max-height: 200px;
+}
