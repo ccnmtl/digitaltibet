@@ -1,8 +1,26 @@
 {{ partial "header.html" . }}
 
-<div id="home_container">
-    <div id="left"></div>
-    <div id="home_right" class="pull-right">
+<div  class="col-md-4">
+    <img src="../img/home_talkingstaff_sm.jpg">
+    <div class="content">
+        <h2>About This Site</h2>
+        <p>
+            Engaging Digital Tibet was created to enhance the teaching and learning of Tibetan material history. The site contains an advanced, searchable repository of Tibetan objects, as well as unique features for creating and sharing descriptive annotations about the objects and their significant parts, allowing for a collaborative decoding and description of Tibetan culture itself.
+        </p>
+    </div>
+
+    <h2>Special Thanks To</h2>
+    <ul class="menu">
+        <li class="leaf"><a href="http://www.sdrubin.org/">The Shelley &amp; Donald Rubin Foundation</a></li>
+        <li class="leaf"><a href="http://www.rmanyc.org">The Rubin Museum of Art </a></li>
+        <li class="leaf"><a href="http://www.himalayanart.org/">Himalayan Art Resources</a></li>
+        <li class="leaf"><a href="http://www.columbia.edu/cu/lweb/indiv/eastasian/index.html">C. V. Starr East Asian Library</a></li>
+    </ul>
+</div>
+
+<div class="col-md-4">
+
+    <div id="home_right">
         <a href="/object/" title="collection" class="active">Explore Collection</a>
         <div id="featured-head">
             <a href="/collection/all">
@@ -16,30 +34,5 @@
         </div>
     </div>
 </div>
-
-    <div id="content-wrapper">
-    </div>
-
-    <div id="featured_metadata">
-    </div>
-
-</div>
-
-<div id="middle">
-    <div class="content"><h2>About This Site</h2>
-        <p>
-            Engaging Digital Tibet was created to enhance the teaching and learning of Tibetan material history. The site contains an advanced, searchable repository of Tibetan objects, as well as unique features for creating and sharing descriptive annotations about the objects and their significant parts, allowing for a collaborative decoding and description of Tibetan culture itself.</td>
-    </p>
-    <br /><h2>Special Thanks To</h2>
-
-
-    <ul class="menu">
-        <li class="leaf"><a href="http://www.sdrubin.org/">The Shelley &amp; Donald Rubin Foundation</a></li>
-        <li class="leaf"><a href="http://www.rmanyc.org">The Rubin Museum of Art </a></li>
-        <li class="leaf"><a href="http://www.himalayanart.org/">Himalayan Art Resources</a></li>
-        <li class="leaf"><a href="http://www.columbia.edu/cu/lweb/indiv/eastasian/index.html">C. V. Starr East Asian Library</a></li>
-
-    </ul>
-</div></div>
 
 {{ partial "footer.html" . }}

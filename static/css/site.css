@@ -34,38 +34,6 @@ nav.navbar-inverse .navbar-text {
     color: #fff;
 }
 
-#left {
-    background-color: #000;
-    background-image: url('../img/home_talkingstaff_sm.jpg');
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    width: 292px;
-    min-width: 292px;
-    position: absolute;
-    bottom: 0px !important;
-    left: 0px;
-    top: 100px;
-    max-height: 100%;
-    min-height: 505px;
-    height: auto;
-}
-
-#middle {
-    width: 230px;
-    position: absolute;
-    bottom: 25px;
-    left: 292px;
-    top: 100px;
-    min-height: 455px;
-    height: auto;
-    border-width: 15px medium 15px 15px;
-    border-style: solid none solid solid;
-    border-color: #4F4F4F;
-    background-color: #333;
-    padding: 10px;
-    color: #fff;
-}
-
 ul.primary-links {
     margin-top: 0px;
     margin-right: 5px;
