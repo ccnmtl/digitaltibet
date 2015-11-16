@@ -7,5 +7,6 @@ date_range = "19th"
 size = "27.9 x 24.8 x 15.2 cm"
 source = "<a href=\"http://www.rmanyc.org/\">Rubin Museum of Art</a>"
 image = "mask.jpg"
+image_preview = "mask_preview.jpg"
 notes = ""
 +++

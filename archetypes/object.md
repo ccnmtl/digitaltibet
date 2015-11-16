@@ -7,5 +7,6 @@ date_range = ""
 size = ""
 source = ""
 image = ""
+image_preview = ""
 notes = ""
 +++
