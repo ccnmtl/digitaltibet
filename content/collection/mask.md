@@ -8,4 +8,5 @@ size = "27.9 x 24.8 x 15.2 cm"
 source_name = "Rubin Museum of Art"
 source_link = "http://www.rmanyc.org/"
 image = "mask.jpg"
+notes = ""
 +++

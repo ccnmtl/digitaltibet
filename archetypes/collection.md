@@ -6,4 +6,5 @@ size = ""
 source_name = ""
 source_link = ""
 image = ""
+notes = ""
 +++

@@ -24,14 +24,30 @@
     <div class="object-details pull-right">
         <h3>Object Details</h3>
         <h4>{{.Title}}</h4>
+        {{ if and (isset .Params "object_use") (ne .Params.object_use "")}}
         <div><strong>Object Use:</strong> {{.Params.object_use}}</div>
+        {{ end }}
+        {{ if and (isset .Params "material") (ne .Params.material "")}}
         <div><strong>Material:</strong> {{.Params.material}}</div>
+        {{ end }}
+        {{ if and (isset .Params "date_range") (ne .Params.date_range "")}}
         <div><strong>Date Range:</strong> {{.Params.date_range}}</div>
+        {{ end }}
+        {{ if and (isset .Params "size") (ne .Params.size "")}}
         <div><strong>Size:</strong> {{.Params.size}}</div>
+        {{ end }}
+        {{ if and (isset .Params "source_link") (ne .Params.source_link "")}}
         <div>
             <strong>Source:</strong>
             <a href="{{.Params.source_link}}">{{.Params.source_name}}</a>
         </div>
+        {{ end }}
+        {{ if and (isset .Params "notes") (ne .Params.notes "")}}
+        <div>
+            <strong>Notes:</strong>
+            {{.Params.notes}}
+        </div>
+        {{ end }}
     </div>
 </div>
 
