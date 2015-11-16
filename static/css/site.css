@@ -121,6 +121,10 @@ ul.secondary-links li {
 }
 
 .collection-image img {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.panzoomer {
+    color: #000;
 }
