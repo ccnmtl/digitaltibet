@@ -114,3 +114,8 @@ ul.secondary-links li {
     float: right;
     background-image: none;
 }
+
+.collection-image img {
+    max-width: 400px;
+    max-height: 400px;
+}

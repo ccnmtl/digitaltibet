@@ -40,7 +40,7 @@ From the home page:
 
     When you collect an object, you are able to leave a note to yourself about why you are collecting it in a text field that appears.
 
-4. Annotating a Object
+4. Annotating an Object
 
     When you are examining an object, you are able to add annotations.
 

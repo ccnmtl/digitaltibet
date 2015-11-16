@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <h3 class="navbar-text">Examining Object</h3>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="page-content container">
+    <div class="collection-image col-md-6">
+        <img src="/img/collection/{{.Params.image}}" />
+    </div>
+    {{ .Content }}
+    <div class="object-details pull-right">
+        <h3>Object Details</h3>
+        <h4>{{.Title}}</h4>
+        <div><strong>Object Use:</strong> {{.Params.object_use}}</div>
+        <div><strong>Material:</strong> {{.Params.material}}</div>
+        <div><strong>Date Range:</strong> {{.Params.date_range}}</div>
+        <div><strong>Size:</strong> {{.Params.size}}</div>
+        <div>
+            <strong>Source:</strong>
+            <a href="{{.Params.source_link}}">{{.Params.source_name}}</a>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
