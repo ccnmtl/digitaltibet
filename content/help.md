@@ -25,20 +25,24 @@ From the home page:
 ## Registered Users (Including Students in Professor Tuttle's Courses)
 
 1. Logging in
-   As a student Professor Tuttle's course, you should log in with your UNI.
+
+    As a student Professor Tuttle's course, you should log in with your UNI.
 
 2. Claiming an Object
-   You are able to search the collection and "claim" an object to use for your "Object Biography" by hitting the "claim object" button. You can only claim one object. When you have claimed one, no one else in the course can claim that same object.
+
+    You are able to search the collection and "claim" an object to use for your "Object Biography" by hitting the "claim object" button. You can only claim one object. When you have claimed one, no one else in the course can claim that same object.
 
 3. Collecting an Object
-   As you go through the collection looking for interesting objects, you can "collect" them by hitting the "Add to Collection" button on the right side of the object details list.
+
+    As you go through the collection looking for interesting objects, you can "collect" them by hitting the "Add to Collection" button on the right side of the object details list.
 
     When you collect an object it is added to "Your Album", accessible via tab at the top of the window. The purpose of "Your Album" is to help you keep track of objects you are interested in and to help with your object biographies.
 
     When you collect an object, you are able to leave a note to yourself about why you are collecting it in a text field that appears.
 
 4. Annotating a Object
-   When you are examining an object, you are able to add annotations.
+
+    When you are examining an object, you are able to add annotations.
 
 **IMPORTANT: For the time being, after you add or delete or edit an annotation, you MUST refresh your browser window for those changes to be visible.**
 
