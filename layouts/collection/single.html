@@ -36,10 +36,10 @@
         {{ if and (isset .Params "size") (ne .Params.size "")}}
         <div><strong>Size:</strong> {{.Params.size}}</div>
         {{ end }}
-        {{ if and (isset .Params "source_link") (ne .Params.source_link "")}}
+        {{ if and (isset .Params "source") (ne .Params.source "")}}
         <div>
             <strong>Source:</strong>
-            <a href="{{.Params.source_link}}">{{.Params.source_name}}</a>
+            {{.Params.source|safeHTML}}
         </div>
         {{ end }}
         {{ if and (isset .Params "notes") (ne .Params.notes "")}}

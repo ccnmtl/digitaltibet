@@ -1,10 +1,11 @@
 +++
 object_use = ""
+cultural_region = ""
+location = ""
 material = ""
 date_range = ""
 size = ""
-source_name = ""
-source_link = ""
+source = ""
 image = ""
 notes = ""
 +++
