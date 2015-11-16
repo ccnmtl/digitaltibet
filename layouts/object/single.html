@@ -13,6 +13,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">Home</a></li>
+                <li><a href="/">Explore Collection</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -34,7 +35,7 @@
     </div>
     <div class="object-details pull-right">
         <h3>Object Details</h3>
-        <h4>{{.Title}}</h4>
+        <h4 class="object-title">{{.Title}}</h4>
         {{ if and (isset .Params "object_use") (ne .Params.object_use "")}}
         <div><strong>Object Use:</strong> {{.Params.object_use}}</div>
         {{ end }}

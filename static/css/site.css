@@ -12,8 +12,18 @@ body.page-engaging-digital-tibet {
 a:link,
 a:visited,
 nav.navbar-inverse .navbar-nav li a {
-    color: #E9B34A;
     text-decoration: none;
+}
+
+a:link,
+a:visited,
+nav.navbar-inverse .navbar-nav li a,
+.object-title {
+    color: #E9B34A;
+}
+
+.object-title {
+    font-weight: bold;
 }
 
 nav.navbar-inverse {
