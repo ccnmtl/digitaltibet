@@ -5,7 +5,7 @@ title = "Help Page"
 
 ## Welcome to the help page for Engaging Digital Tibet
 
-Please post to the [troubleshooting discussion board](http://digitaltibet.wikispaces.columbia.edu/message/view/Discussion/6593987) with your questions, it is monitored daily. Please post to the [feedback board](http://digitaltibet.wikispaces.columbia.edu/message/view/Discussion/6593973) with your comments and feedback. Until further notice, the discussion boards are restricted to access by Columbia students and faculty only. Public users who would like to know more or contribute to this project should contact the project team through [CCNMTL](http://ccnmtl.columbia.edu/).
+Please post to the [troubleshooting discussion board](http://digitaltibet.wikispaces.columbia.edu/message/view/Discussion/6593987) with your questions, it is monitored daily. Please post to the [feedback board](http://digitaltibet.wikispaces.columbia.edu/message/view/Discussion/6593973) with your comments and feedback. Until further notice, the discussion boards are restricted to access by Columbia students and faculty only. Public users who would like to know more or contribute to this project should contact the project team through [CTL](http://ctl.columbia.edu/).
 
 The site has two non-admin user types: A) general public users, and, B) students registered in Professor Tuttle's courses.
 
