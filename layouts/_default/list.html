@@ -1,9 +1,11 @@
 {{ partial "default_head.html" . }}
-<div class="index">
+<div class="list">
 
   <div class="row">
     <div class="col-md-8">
-      {{ range .Paginator.Pages }}
+      <header class="page-title">{{ .Title }}</header>
+
+      {{ range (.Paginate .Data.Pages).Pages }}
       {{ .Render "li" }}
       {{ end }}
       {{ partial "pagination.html" . }}

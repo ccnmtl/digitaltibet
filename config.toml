@@ -1,3 +1,22 @@
-baseurl = "https://digitaltibet.ccnmtl.columbia.edu/"
+baseUrl = "http://example.com"
 languageCode = "en-us"
 title = "Engaging Digital Tibet"
+
+[params]
+  author = "Your name."
+  dateForm = "Mon, Jan 2, 2006"
+  googleAnalyticsUserID = "Your ID."
+  facebook = "Your ID."
+  twitter = "Your ID."
+  github = "Your ID."
+  showRelatedPost = true
+  disqus = "Your Disqus."
+  syntaxHighlightTheme = "solarized_dark.min.css"
+
+[indexes]
+  tag = "tags"
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:title/"
+
+metadataFormat = "yaml"
