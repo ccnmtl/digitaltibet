@@ -1,19 +1,11 @@
-baseUrl = "http://example.com"
+baseUrl = "https://digitaltibet.ccnmtl.columbia.edu"
 languageCode = "en-us"
 title = "Engaging Digital Tibet"
 
 [params]
-  author = "Your name."
+  author = "Columbia University's Center for Teaching and Learning"
   dateForm = "Mon, Jan 2, 2006"
-  facebook = "Your ID."
-  twitter = "Your ID."
-  github = "Your ID."
-  showRelatedPost = true
-  disqus = "Your Disqus."
-  syntaxHighlightTheme = "solarized_dark.min.css"
-
-[indexes]
-  tag = "tags"
+  awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/"
 
 [permalinks]
   post = "/blog/:year/:month/:day/:title/"
