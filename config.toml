@@ -5,7 +5,6 @@ title = "Engaging Digital Tibet"
 [params]
   author = "Your name."
   dateForm = "Mon, Jan 2, 2006"
-  googleAnalyticsUserID = "Your ID."
   facebook = "Your ID."
   twitter = "Your ID."
   github = "Your ID."
@@ -18,5 +17,3 @@ title = "Engaging Digital Tibet"
 
 [permalinks]
   post = "/blog/:year/:month/:day/:title/"
-
-metadataFormat = "yaml"
