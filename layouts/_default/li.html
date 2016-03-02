@@ -4,9 +4,9 @@
   </header>
   <div class="body">
       {{ if .Truncated }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
-      {{ if .Params.image_preview }}
+      {{ if .Params.thumbnail }}
       <div class="media">
-          <img src="{{.Site.Params.awsUrl}}{{.Params.image_preview}}"
+          <img src="{{.Site.Params.awsUrl}}{{.Params.thumbnail}}"
                class="media-object"
                alt="Image of {{ .Title }}">
       </div>
