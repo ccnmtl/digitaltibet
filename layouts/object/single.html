@@ -17,7 +17,8 @@
 
 <div class="page-content container">
     <div class="collection-image col-md-8">
-        <img src="https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/{{.Params.image}}">
+        <img src="{{.Site.Params.awsUrl}}{{.Params.image}}"
+             alt="Image of {{ .Title }}">
 
     </div>
     {{ .Content }}
@@ -44,10 +45,14 @@
         {{ if and (isset .Params "size") (ne .Params.size "")}}
         <div><strong>Size:</strong> {{.Params.size}}</div>
         {{ end }}
-        {{ if and (isset .Params "source") (ne .Params.source "")}}
+        {{ if and (isset .Params "source_title") (ne .Params.source_title "")}}
         <div>
             <strong>Source:</strong>
-            {{.Params.source|safeHTML}}
+            {{ if and (isset .Params "source_url") (ne .Params.source_url "")}}
+            <a href="{{.Params.source_url}}">{{.Params.source_title}}</a>
+            {{ else }}
+            {{.Params.source_title}}
+            {{ end }}
         </div>
         {{ end }}
         {{ if and (isset .Params "notes") (ne .Params.notes "")}}
