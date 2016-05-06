@@ -6,7 +6,7 @@
       {{ if .Truncated }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
       {{ if .Params.thumbnail }}
       <div class="media">
-          <img src="{{.Site.Params.awsUrl}}{{.Params.thumbnail}}"
+          <img src="{{.Site.Params.awsUrl}}objects/{{.Params.thumbnail}}"
                class="media-object"
                alt="Image of {{ .Title }}">
       </div>
