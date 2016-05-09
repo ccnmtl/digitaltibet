@@ -1,7 +1,7 @@
-+++
-date = "2015-10-19T14:24:09-04:00"
-title = "Help Page"
-+++
+---
+date: 2015-10-19T14:24:09-04:00
+title: Help Page
+---
 
 ## Welcome to the help page for Engaging Digital Tibet
 
