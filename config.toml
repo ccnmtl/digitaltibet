@@ -3,9 +3,14 @@ languageCode = "en-us"
 title = "Engaging Digital Tibet"
 
 [params]
-  author = "Columbia University's Center for Teaching and Learning"
-  dateForm = "Mon, Jan 2, 2006"
-  awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/"
+author = "Columbia University's Center for Teaching and Learning"
+dateForm = "Mon, Jan 2, 2006"
+awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/"
 
 [permalinks]
-  post = "/blog/:year/:month/:day/:title/"
+post = "/blog/:year/:month/:day/:title/"
+
+[[menu.main]]
+name = "Help"
+identifier = "help"
+url = "/help/"
