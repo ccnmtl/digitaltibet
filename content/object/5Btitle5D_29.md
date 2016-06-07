@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:57.241565
+date: 2016-05-04T17:53:57.241565
 date_range: 20th
 image: Winona 3.2000x2000.jpg
 material: Leather | Metal (generic) | Textile  | Wood

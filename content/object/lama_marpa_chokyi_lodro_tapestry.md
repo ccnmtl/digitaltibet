@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:47.472086
+date: 2016-05-04T17:53:47.472086
 date_range: 18th
 image: Rubin_C2006_66_577H01061.2000x2000.jpg
 material: Silk

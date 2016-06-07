@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:54:02.081558
+date: 2016-05-04T17:54:02.081558
 date_range: 21st
 image: Zoe 2.2000x2000.jpg
 material: Bone

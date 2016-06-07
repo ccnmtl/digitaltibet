@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:39.884965
+date: 2016-05-04T17:53:39.884965
 date_range: 17th
 image: Rebkong Tashikhyil closeup_0888.2000x2000.JPG
 material: Bronze | Clay | Copper | Cotton | Gold | Stone | Wood | Wool

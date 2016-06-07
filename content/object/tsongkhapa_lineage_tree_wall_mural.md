@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:37.830681
+date: 2016-05-04T17:53:37.830681
 date_range: 20th
 image: Banyul Amgon interior Tsongkhapa_1144.2000x2000.JPG
 material: Cotton | Gold | Wood

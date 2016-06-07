@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:47.996854
+date: 2016-05-04T17:53:47.996854
 image: 080102003-1.2000x2000.jpg
 material: Lacquer | Wood
 notes: 'Tibetan term: Samṭa. Currently in the Rare Books Collection, C.V. Starr East

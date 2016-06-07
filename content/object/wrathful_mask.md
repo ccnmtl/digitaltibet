@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:42.453478
+date: 2016-05-04T17:53:42.453478
 date_range: 17th
 image: Rubin_C2002_35_1H065163.2000x2000.jpg
 material: Papier-mache

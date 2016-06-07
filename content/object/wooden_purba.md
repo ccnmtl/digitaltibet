@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:46.050989
+date: 2016-05-04T17:53:46.050989
 date_range: <15th
 image: Rubin_C2005_3_1HAR65390_side_a.2000x2000.jpg
 material: Horn | Wood

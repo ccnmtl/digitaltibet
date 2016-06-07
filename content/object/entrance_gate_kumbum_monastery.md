@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:37.158735
+date: 2016-05-04T17:53:37.158735
 date_range: 20th
 image: 7Kumbum entrance & hospital_1646.2000x2000.JPG
 material: Stone | Wood

@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:56.988774
+date: 2016-05-04T17:53:56.988774
 date_range: 21st
 image: Winona 2.2000x2000.jpg
 material: Clay

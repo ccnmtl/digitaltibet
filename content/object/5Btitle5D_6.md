@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:51.169057
+date: 2016-05-04T17:53:51.169057
 image: Aaron 1.2000x2000.jpg
 object_use: Other | Religious
 size: 15cm high

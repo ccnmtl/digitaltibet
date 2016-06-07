@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:42.237211
+date: 2016-05-04T17:53:42.237211
 date_range: unknown
 image: Rubin_C2001_12_1H065031.2000x2000.jpg
 material: 'Textile '
