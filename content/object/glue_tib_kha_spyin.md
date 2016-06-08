@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:49.672646
+date: 2016-05-04T17:53:49.672646
 date_range: 20th
 image: 080102006-1_0.2000x2000.jpg
 notes: ' (Tib. kha spyin.) This is a stick of glue, which must first be wetted. The

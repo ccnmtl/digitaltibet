@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:44.406401
+date: 2016-05-04T17:53:44.406401
 date_range: 19th
 image: Rubin_C2003_13_7H065220.2000x2000.jpg
 material: Embroidery

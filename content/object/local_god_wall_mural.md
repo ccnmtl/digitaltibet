@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:40.327516
+date: 2016-05-04T17:53:40.327516
 date_range: 20th
 image: Serkhok Gon ext art_2052.2000x2000.JPG
 notes: This image is a depiction of a local god (yul lha) such as Amye Machen or a

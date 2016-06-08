@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:54:01.827440
+date: 2016-05-04T17:54:01.827440
 date_range: 20th
 image: Zoe 1.2000x2000.jpg
 material: Iron | Leather | Metal (generic) | Stone

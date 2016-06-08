@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:40.090639
+date: 2016-05-04T17:53:40.090639
 date_range: 17th
 image: Serkhok Gon ext art_2042.2000x2000.JPG
 material: Clay | Copper | Iron | Silk | Stone | Wood

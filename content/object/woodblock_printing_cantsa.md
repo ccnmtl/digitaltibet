@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:38.632109
+date: 2016-05-04T17:53:38.632109
 date_range: 20th
 image: Cantsa srid Gechuk printing_1057.2000x2000.JPG
 material: Cotton | Wood

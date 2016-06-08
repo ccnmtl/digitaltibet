@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:54:00.069329
+date: 2016-05-04T17:54:00.069329
 image: Winona ND 2.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other

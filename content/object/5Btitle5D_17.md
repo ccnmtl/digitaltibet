@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:54.094084
+date: 2016-05-04T17:53:54.094084
 image: Gloria ND 1.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other

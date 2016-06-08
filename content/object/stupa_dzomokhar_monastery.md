@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:39.481774
+date: 2016-05-04T17:53:39.481774
 date_range: 20th
 image: Minhe Dzomokhar site where Shakya Yeshe died_1461.2000x2000.JPG
 material: Clay | Copper | Stone

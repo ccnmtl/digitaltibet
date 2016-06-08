@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:48.220987
+date: 2016-05-04T17:53:48.220987
 date_range: 20th
 image: 080102001-big.2000x2000.jpg
 material: Animal Hide and Fur

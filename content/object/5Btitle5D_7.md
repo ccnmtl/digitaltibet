@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:51.429271
+date: 2016-05-04T17:53:51.429271
 image: Aaron 2.2000x2000.jpg
 material: Bronze | Copper | Leather | Wood
 notes: Open for metadata submission.

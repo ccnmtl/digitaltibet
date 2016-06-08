@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:37.395806
+date: 2016-05-04T17:53:37.395806
 date_range: <15th
 image: 8ShaDzong_0375.2000x2000.JPG
 material: Stone | Wood

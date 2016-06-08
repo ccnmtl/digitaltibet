@@ -1,5 +1,5 @@
 ---
-date: 2016-05-04 17:53:42.660107
+date: 2016-05-04T17:53:42.660107
 date_range: unknown
 image: Rubin_C2002_5_12H065062.2000x2000.jpg
 material: Wood
