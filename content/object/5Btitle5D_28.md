@@ -6,6 +6,6 @@ material: Clay
 notes: Open for metadata submission.
 object_use: Religious
 thumbnail: Winona 2.preview.jpg
-title: Tsa Tsa (Stamped Clay) | Engaging Digital Tibet
+title: Tsa Tsa (Stamped Clay)
 ---
 

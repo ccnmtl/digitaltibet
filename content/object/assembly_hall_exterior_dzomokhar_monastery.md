@@ -9,6 +9,6 @@ notes: This assembly hall holds the reliquary stupa of Shakya Yeshe, an importan
 object_use: Other | Religious
 size: 35' tall
 thumbnail: Minhe Dzomokhar5_1441.preview.JPG
-title: Assembly Hall Exterior, Dzomokhar Monastery | Engaging Digital Tibet
+title: Assembly Hall Exterior, Dzomokhar Monastery
 ---
 

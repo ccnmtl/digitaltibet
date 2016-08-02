@@ -1,5 +1,18 @@
 {{ partial "default_head.html" . }}
 
+<script type="application/ld+json">
+    {
+    "@context" : "http://schema.org",
+    "@type" : "ImageObject",
+    "name": {{.Title}},
+
+    {{/* TODO: I can't figure out how to tell hugo to not escape */}}
+    {{/* the slashes in .Site.Params.awsUrl, so I'm hardcoding this */}}
+    {{/* here. */}}
+    "url": "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/objects/{{.Params.image}}"
+    }
+</script>
+
 <nav class="navbar">
     <div class="container-fluid">
         <div class="navbar-header">

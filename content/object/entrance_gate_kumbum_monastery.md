@@ -8,6 +8,6 @@ notes: "Entrance gate to Kumbum (Sku 'bum) Monastery, founded in 16th century; n
   taken: 2006"
 object_use: Agricultural
 thumbnail: 7Kumbum entrance & hospital_1646.preview.JPG
-title: Entrance Gate, Kumbum Monastery | Engaging Digital Tibet
+title: Entrance Gate, Kumbum Monastery
 ---
 

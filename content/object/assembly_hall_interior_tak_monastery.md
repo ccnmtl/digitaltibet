@@ -5,6 +5,6 @@ image: Banyul Takgon main hall interior_1089.2000x2000.JPG
 material: Bronze | Cotton | Gold | Silk | Wood | Wool
 object_use: Religious
 thumbnail: Banyul Takgon main hall interior_1089.preview.JPG
-title: Assembly Hall Interior, Tak Monastery | Engaging Digital Tibet
+title: Assembly Hall Interior, Tak Monastery
 ---
 

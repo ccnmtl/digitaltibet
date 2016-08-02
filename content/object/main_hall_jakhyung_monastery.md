@@ -5,6 +5,6 @@ material: Cotton | Gold | Leather | Silk | Wood
 notes: ' '
 object_use: Other | Religious
 thumbnail: 18Byakhyung Main Hall interior_0454.preview.JPG
-title: Main Hall, Jakhyung Monastery | Engaging Digital Tibet
+title: Main Hall, Jakhyung Monastery
 ---
 

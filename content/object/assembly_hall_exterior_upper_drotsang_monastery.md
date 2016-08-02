@@ -8,6 +8,6 @@ notes: This monastery should not be confused with the lower (original) Drotsang 
   Schram's "The Monguors of Kansu".
 object_use: Religious
 thumbnail: Drotsang Upper Gon_1934.preview.JPG
-title: Assembly Hall Exterior,  Upper Drotsang Monastery | Engaging Digital Tibet
+title: Assembly Hall Exterior,  Upper Drotsang Monastery
 ---
 

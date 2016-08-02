@@ -4,6 +4,6 @@ image: Myrtle ND 2.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Myrtle ND 2.preview.jpg
-title: Ritual Drum (Myrtle ND 2) | Engaging Digital Tibet
+title: Ritual Drum (Myrtle ND 2)
 ---
 

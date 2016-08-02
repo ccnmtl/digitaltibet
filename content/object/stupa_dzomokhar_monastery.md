@@ -10,6 +10,6 @@ notes: 'This stupa marks the site where the cart carrying the remains of Shakya 
 object_use: Religious
 size: 25'
 thumbnail: Minhe Dzomokhar site where Shakya Yeshe died_1461.preview.JPG
-title: Stupa, Dzomokhar Monastery | Engaging Digital Tibet
+title: Stupa, Dzomokhar Monastery
 ---
 

@@ -4,6 +4,6 @@ image: Frank ND 5.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Frank ND 5.preview.jpg
-title: Metal Statue (Frank ND 5) | Engaging Digital Tibet
+title: Metal Statue (Frank ND 5)
 ---
 
