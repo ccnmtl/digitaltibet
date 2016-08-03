@@ -8,6 +8,6 @@ notes: This side hall has interesting illustrations, see related entries on this
 object_use: Other | Religious
 size: 18' tall x 25' wide x 20' deep?
 thumbnail: Serkhok Gon ext art_2042.preview.JPG
-title: Side Hall, Tsenpo Monastery | Engaging Digital Tibet
+title: Side Hall, Tsenpo Monastery
 ---
 

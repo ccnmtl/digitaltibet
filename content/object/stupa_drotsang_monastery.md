@@ -9,6 +9,6 @@ notes: "Drotsang Monastery (Gro tshang Dgon pa, Ch. Qutan Si) was partially dest
   1986), 39p.\r\nSee Zuo Xie, Qutan Si (Xining: Qinghai renmin chubanshe, 1998),109p. "
 object_use: Religious
 thumbnail: Drotsang stupa_1874.preview.JPG
-title: Stupa, Drotsang Monastery | Engaging Digital Tibet
+title: Stupa, Drotsang Monastery
 ---
 

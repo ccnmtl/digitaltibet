@@ -6,6 +6,6 @@ material: Papier-mache | Wood
 object_use: Religious
 size: 35.6 x 38.1 x 20.3 cm
 thumbnail: Rubin_C2002_5_6H065056.preview.jpg
-title: Mask, Gonpo, Buddhist Protector  | Engaging Digital Tibet
+title: Mask, Gonpo, Buddhist Protector
 ---
 

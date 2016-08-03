@@ -6,6 +6,6 @@ material: Metal (generic) | Silver
 notes: Open for metadata submission.
 object_use: Decorative | Other
 thumbnail: Winona 11.preview.jpg
-title: Dagger (Decorative) | Engaging Digital Tibet
+title: Dagger (Decorative)
 ---
 

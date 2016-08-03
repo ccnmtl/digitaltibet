@@ -4,6 +4,6 @@ image: Winona ND 2.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Winona ND 2.preview.jpg
-title: Ring (Winona ND 2) | Engaging Digital Tibet
+title: Ring (Winona ND 2)
 ---
 

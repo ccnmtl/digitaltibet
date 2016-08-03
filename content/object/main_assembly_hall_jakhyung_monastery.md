@@ -7,6 +7,6 @@ notes: Main assembly hall at Jakhyung Monastery founded in the 14th century with
   renovations in the late 20th century-early 21st century.
 object_use: Architectural | Other | Religious
 thumbnail: 14ByaKhyung Main Hall_0496.preview.JPG
-title: Main Assembly Hall, Jakhyung Monastery | Engaging Digital Tibet
+title: Main Assembly Hall, Jakhyung Monastery
 ---
 

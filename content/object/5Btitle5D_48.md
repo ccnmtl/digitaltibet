@@ -4,6 +4,6 @@ image: Zoe NO DATA 1.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Zoe NO DATA 1.preview.jpg
-title: Phurba (Zoe ND 1) | Engaging Digital Tibet
+title: Phurba (Zoe ND 1)
 ---
 

@@ -13,6 +13,6 @@ notes: This combined stupa and incense burner are in a Chinese style and give th
 object_use: Religious
 size: 16' tall?
 thumbnail: Ziling Jinta si_2082.preview.JPG
-title: Stupa, Jinta Temple | Engaging Digital Tibet
+title: Stupa, Jinta Temple
 ---
 

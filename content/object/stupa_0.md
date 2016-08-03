@@ -6,6 +6,6 @@ material: Copper
 object_use: Religious
 size: '35.6 x 16.5 x 16.5 cm.  Diameter:  15.2 cm'
 thumbnail: Rubin_C2003_21_1H065233.preview.jpg
-title: Stupa, Kadampa Chorten | Engaging Digital Tibet
+title: Stupa, Kadampa Chorten
 ---
 

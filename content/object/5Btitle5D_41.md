@@ -4,6 +4,6 @@ image: Winona ND 3.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Winona ND 3.preview.jpg
-title: Earrings (Winona ND 3) | Engaging Digital Tibet
+title: Earrings (Winona ND 3)
 ---
 

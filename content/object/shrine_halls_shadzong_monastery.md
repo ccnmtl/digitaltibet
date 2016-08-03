@@ -7,6 +7,6 @@ notes: "Shadzong Monastery was founded in the 12th century, though these buildin
   have probably all been rebuilt since the Cultural Revolution ended (1976). \r\n"
 object_use: Other | Religious
 thumbnail: 8ShaDzong_0375.preview.JPG
-title: Shrine Halls--Shadzong Monastery | Engaging Digital Tibet
+title: Shrine Halls--Shadzong Monastery
 ---
 

@@ -8,6 +8,6 @@ notes: 'Two woodblocks: one for religious text, and one likely for prayers print
 object_use: Religious
 size: 6\"x3\", 15\"x11\"
 thumbnail: Cantsa srid Gechuk printing_1057.preview.JPG
-title: Woodblock Printing, Cantsa | Engaging Digital Tibet
+title: Woodblock Printing, Cantsa
 ---
 

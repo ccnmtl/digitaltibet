@@ -9,6 +9,6 @@ notes: "Jakhyung Monastery, founded in the 14th century with major renovations i
 object_use: Administrative | Other
 size: 20x80m
 thumbnail: 19Byakhyung Maitreya Hall_0501.preview.JPG
-title: Maitreya Hall, Jakhyung Monastery | Engaging Digital Tibet
+title: Maitreya Hall, Jakhyung Monastery
 ---
 

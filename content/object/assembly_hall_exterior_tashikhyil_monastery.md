@@ -8,6 +8,6 @@ notes: This monastery was established as a retreat by the famous Rebgong lama Sh
   Brill Press.
 object_use: Religious
 thumbnail: Rebkong Tashikhyil closeup_0888.preview.JPG
-title: Assembly Hall Exterior, Tashikhyil Monastery | Engaging Digital Tibet
+title: Assembly Hall Exterior, Tashikhyil Monastery
 ---
 

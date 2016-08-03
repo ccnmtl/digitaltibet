@@ -4,6 +4,6 @@ image: Ed 1.2000x2000.jpg
 notes: Open for metadata submission.
 object_use: Other
 thumbnail: Ed 1.preview.jpg
-title: Chorten (Stupa) | Engaging Digital Tibet
+title: Chorten (Stupa)
 ---
 
