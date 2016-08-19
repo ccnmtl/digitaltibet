@@ -75,6 +75,17 @@
         </div>
         {{ end }}
     </div>
+
+    <div class="clearfix"></div>
+
+    <h3>Related Objects</h3>
+    <ul class="post-rels">
+        {{ range $i, $obj := where (where .Site.Pages.ByDate.Reverse "Type" "object") "Date.Unix" "<" .Date.Unix }}
+            {{ if lt $i 5 }}
+                <li><a href="{{ $obj.RelPermalink }}">{{ $obj.Title }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
 </div>
 
 {{ partial "default_foot.html" . }}
