@@ -1,5 +1,5 @@
 [
-{{ $objs := .Site.Pages }}
+{{ $objs := where .Site.Pages "Type" "object" }}
 {{ range $index, $o := $objs }}{{ if $index }},{{ end }}
     {
     "date": "{{$o.Date}}",
