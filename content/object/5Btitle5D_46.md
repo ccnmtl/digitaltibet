@@ -1,11 +1,12 @@
----
-date: 2016-05-04T17:54:02.081558
-date_range: 21st
-image: Zoe 2.2000x2000.jpg
-material: Bone
-notes: Open for metadata submission.
-object_use: Other | Religious
-thumbnail: Zoe 2.preview.jpg
-title: Painted Bones
----
-
++++
+source_title = "Sha bo sgrol ma ཤ་བོ་སྒྲོལ་མ། (Zoe) Private Collection"
+notes = "Open for metadata submission."
+material = "Bone"
+object_use = "Other | Religious"
+cultural_region = "Amdo"
+date_range = "21st"
+date = "2016-10-19T20:11:33.644051"
+thumbnail = "Zoe 2.preview.jpg"
+image = "Zoe 2.2000x2000.jpg"
+title = "Painted Bones"
++++

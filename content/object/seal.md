@@ -1,11 +1,13 @@
----
-date: 2016-05-04T17:53:48.434808
-date_range: 20th
-image: 080102007-1.2000x2000.jpg
-material: Bronze
-notes: (Tib. tham ka; also tham ga)
-object_use: Administrative
-thumbnail: 080102007-1.preview.jpg
-title: Seal
----
-
++++
+source_title = "C. V. Starr East Asian Library"
+notes = "(Tib. tham ka; also tham ga)"
+material = "Bronze"
+object_use = "Administrative"
+cultural_region = "Central Tibet (Ütsang)"
+date_range = "20th"
+date = "2016-10-19T20:11:14.506313"
+thumbnail = "080102007-1.preview.jpg"
+image_date = "11102008"
+image = "080102007-1.2000x2000.jpg"
+title = "Seal"
++++

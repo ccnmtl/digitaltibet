@@ -1,9 +1,8 @@
----
-date: 2016-05-04T17:54:01.284961
-image: Winona ND 5.2000x2000.jpg
-notes: Open for metadata submission.
-object_use: Other
-thumbnail: Winona ND 5.preview.jpg
-title: Winona ND 5
----
-
++++
+notes = "Open for metadata submission."
+object_use = "Other"
+date = "2016-10-19T20:11:32.641379"
+thumbnail = "Winona ND 5.preview.jpg"
+image = "Winona ND 5.2000x2000.jpg"
+title = "Winona ND 5"
++++
