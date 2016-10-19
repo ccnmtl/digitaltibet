@@ -11,7 +11,7 @@ The site has two non-admin user types: A) general public users, and, B) students
 
 ## General Public, All Users
 
-From the home page:
+From the home page: testtest
 
 1. Click "Browse Collection"
 2. Enter search keyword, select filters, or simply browse all objects.
