@@ -94,16 +94,18 @@ class Obj:
 
     def as_dict(self):
         return {
-            'date': str(datetime.utcnow()),
+            'date': str(datetime.isoformat(datetime.utcnow())),
             'title': self.title(),
             'image': self.image_src(),
             'thumbnail': self.image_preview(),
             'object_use': self.get_field('object_use'),
+            'cultural_region': self.get_field('cultural_region'),
             'material': self.get_field('material'),
             'date_range': self.get_field('date_range'),
+            'image_date': self.get_field('image_date'),
             'size': self.get_field('size'),
-            'source_title': self.get_field('source_title'),
-            'source_url': self.get_field('source_url'),
+            'source_title': self.get_field('source'),
+            # 'source_url': self.get_field('source_url'),
             'notes': self.get_field('notes'),
         }
 
@@ -148,13 +150,15 @@ class Obj:
                 break
 
         if field is not None:
-            return field.find(class_='field-item').string
+            v = field.find(class_='field-item').string
+            return v
         else:
             return None
 
     def image_preview(self):
         img = self.soup.find('img', class_='image-preview')
         src = img.attrs['src']
+        src = re.sub(r'^.*\/', '', src)
         return src
 
     def image_src(self):

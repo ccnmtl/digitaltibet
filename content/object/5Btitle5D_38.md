@@ -1,11 +1,12 @@
----
-date: 2016-05-04T17:53:59.581638
-date_range: 21st
-image: Winona 11.2000x2000.jpg
-material: Metal (generic) | Silver
-notes: Open for metadata submission.
-object_use: Decorative | Other
-thumbnail: Winona 11.preview.jpg
-title: Dagger (Decorative)
----
-
++++
+source_title = "Skal bzang lha skyid སྐལ་བཟང་ལྷ་སྐྱིད། (Winona) Private Collection"
+notes = "Open for metadata submission."
+material = "Metal (generic) | Silver"
+object_use = "Decorative | Other"
+cultural_region = "Kham"
+date_range = "21st"
+date = "2016-10-19T20:11:30.414220"
+thumbnail = "Winona 11.preview.jpg"
+image = "Winona 11.2000x2000.jpg"
+title = "Dagger (Decorative) | Engaging Digital Tibet"
++++

@@ -1,9 +1,8 @@
----
-date: 2016-05-04T17:53:51.653746
-image: Aaron ND 1.2000x2000.jpg
-notes: Open for metadata submission.
-object_use: Other
-thumbnail: Aaron ND 1.preview.jpg
-title: Dagger and Sheath (Aaron ND 1)
----
-
++++
+notes = "Open for metadata submission."
+object_use = "Other"
+date = "2016-10-19T20:11:19.114227"
+thumbnail = "Aaron ND 1.preview.jpg"
+image = "Aaron ND 1.2000x2000.jpg"
+title = "Dagger and Sheath (Aaron ND 1) | Engaging Digital Tibet"
++++
