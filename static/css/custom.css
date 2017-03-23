@@ -1,4 +1,29 @@
+body {
+    color: #fff;
+    background-color: #333;
+}
+
+a, a:visited {
+    color: #e9b34a;
+}
+
+a:hover, a:focus, a:active {
+    color: #e9b34a;
+}
+
+.pager a {
+    color: #000;
+}
+
+button {
+    color: #000;
+}
+
 .li .body img {
     max-width: 300px;
     max-height: 200px;
+}
+
+.collection-image {
+    max-height: 500px;
 }

@@ -46,10 +46,6 @@ code:not(.hljs) {
   font-size: .8rem;
 }
 
-img {
-  width: 100%;
-}
-
 .share {
   text-align: right;
 }
@@ -201,7 +197,8 @@ article.single aside .section {
 }
 
 footer.site {
-  padding: 3rem 0;
+    padding: 3rem 2rem;
+    text-align: center;
 }
 
 footer.site p {
