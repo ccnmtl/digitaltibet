@@ -13,10 +13,10 @@
     }
 </script>
 
-<nav class="navbar">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <h3 class="navbar-text">Examining Object</h3>
+            <h3 class="navbar-text">Examining Object: {{ .Title }}</h3>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -28,58 +28,60 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="page-content container">
+<div class="page-content">
     <div class="collection-image col-md-8">
         <img src="{{.Site.Params.awsUrl}}objects/{{.Params.image}}"
              alt="Image of {{ .Title }}">
 
     </div>
     {{ .Content }}
-    <div class="panzoomer pull-right">
-        <div class="buttons">
-            <button class="zoom-in">Zoom In</button>
-            <button class="zoom-out">Zoom Out</button>
-            <input type="range" class="zoom-range" step="0.05" min="0.4" max="5">
-            <button class="reset">Reset</button>
+    <div class="col-md-4">
+        <div class="panzoomer">
+            <div class="buttons">
+                <button class="zoom-in">Zoom In</button>
+                <button class="zoom-out">Zoom Out</button>
+                <input type="range" class="zoom-range" step="0.05" min="0.4" max="5">
+                <button class="reset">Reset</button>
+            </div>
         </div>
-    </div>
-    <div class="object-details pull-right">
-        <h3>Object Details</h3>
-        <h4 class="object-title">{{.Title}}</h4>
-        {{ if and (isset .Params "object_use") (ne .Params.object_use "")}}
-        <div><strong>Object Use:</strong> {{.Params.object_use}}</div>
-        {{ end }}
-        {{ if and (isset .Params "material") (ne .Params.material "")}}
-        <div><strong>Material:</strong> {{.Params.material}}</div>
-        {{ end }}
-        {{ if and (isset .Params "cultural_region") (ne .Params.cultural_region "")}}
-        <div><strong>Cultural Region:</strong> {{.Params.cultural_region}}</div>
-        {{ end }}
-        {{ if and (isset .Params "image_date") (ne .Params.image_date "")}}
-        <div><strong>Image Date:</strong> {{.Params.image_date}}</div>
-        {{ end }}
-        {{ if and (isset .Params "date_range") (ne .Params.date_range "")}}
-        <div><strong>Date Range:</strong> {{.Params.date_range}}</div>
-        {{ end }}
-        {{ if and (isset .Params "size") (ne .Params.size "")}}
-        <div><strong>Size:</strong> {{.Params.size}}</div>
-        {{ end }}
-        {{ if and (isset .Params "source_title") (ne .Params.source_title "")}}
-        <div>
-            <strong>Source:</strong>
-            {{ if and (isset .Params "source_url") (ne .Params.source_url "")}}
-            <a href="{{.Params.source_url}}">{{.Params.source_title}}</a>
-            {{ else }}
-            {{.Params.source_title}}
+        <div class="object-details">
+            <h3>Object Details</h3>
+            <h4 class="object-title">{{.Title}}</h4>
+            {{ if and (isset .Params "object_use") (ne .Params.object_use "")}}
+                <div><strong>Object Use:</strong> {{.Params.object_use}}</div>
+            {{ end }}
+            {{ if and (isset .Params "material") (ne .Params.material "")}}
+                <div><strong>Material:</strong> {{.Params.material}}</div>
+            {{ end }}
+            {{ if and (isset .Params "cultural_region") (ne .Params.cultural_region "")}}
+                <div><strong>Cultural Region:</strong> {{.Params.cultural_region}}</div>
+            {{ end }}
+            {{ if and (isset .Params "image_date") (ne .Params.image_date "")}}
+                <div><strong>Image Date:</strong> {{.Params.image_date}}</div>
+            {{ end }}
+            {{ if and (isset .Params "date_range") (ne .Params.date_range "")}}
+                <div><strong>Date Range:</strong> {{.Params.date_range}}</div>
+            {{ end }}
+            {{ if and (isset .Params "size") (ne .Params.size "")}}
+                <div><strong>Size:</strong> {{.Params.size}}</div>
+            {{ end }}
+            {{ if and (isset .Params "source_title") (ne .Params.source_title "")}}
+                <div>
+                    <strong>Source:</strong>
+                    {{ if and (isset .Params "source_url") (ne .Params.source_url "")}}
+                        <a href="{{.Params.source_url}}">{{.Params.source_title}}</a>
+                    {{ else }}
+                        {{.Params.source_title}}
+                    {{ end }}
+                </div>
+            {{ end }}
+            {{ if and (isset .Params "notes") (ne .Params.notes "")}}
+                <div>
+                    <strong>Notes:</strong>
+                    {{.Params.notes}}
+                </div>
             {{ end }}
         </div>
-        {{ end }}
-        {{ if and (isset .Params "notes") (ne .Params.notes "")}}
-        <div>
-            <strong>Notes:</strong>
-            {{.Params.notes}}
-        </div>
-        {{ end }}
     </div>
 
     <div class="clearfix"></div>
