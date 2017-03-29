@@ -1,29 +1,23 @@
-body {
-    color: #fff;
-    background-color: #333;
+.navbar {
+    margin-bottom: 3rem;
 }
 
-a, a:visited {
-    color: #e9b34a;
+.row {
+    margin-bottom: 3rem;
 }
 
-a:hover, a:focus, a:active {
-    color: #e9b34a;
+.panzoomer {
+    margin-bottom: 1rem;
 }
 
-.pager a {
-    color: #000;
-}
-
-button {
-    color: #000;
-}
-
-.li .body img {
-    max-width: 300px;
-    max-height: 200px;
+article.li {
+    margin-bottom: 1rem;
 }
 
 .collection-image {
-    max-height: 500px;
+    max-height: 30rem;
+}
+
+footer {
+    margin-bottom: 1rem;
 }
