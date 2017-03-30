@@ -20,7 +20,8 @@
 <div class="page-content">
     <div class="row">
         <div class="collection-image col">
-            <img src="{{.Site.Params.awsUrl}}objects/{{.Params.image}}"
+            <img class="img-fluid"
+                 src="{{.Site.Params.awsUrl}}objects/{{.Params.image}}"
                  alt="Image of {{ .Title }}">
         </div>
         {{ .Content }}
