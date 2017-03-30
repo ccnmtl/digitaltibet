@@ -5,11 +5,10 @@
   <div class="body">
       {{ if .Truncated }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
       {{ if .Params.thumbnail }}
-      <div class="media">
-          <img src="{{.Site.Params.awsUrl}}objects/{{.Params.thumbnail}}"
-               class="media-object"
-               alt="Image of {{ .Title }}">
-      </div>
+          <a href="{{ .Permalink }}">
+              <img src="{{.Site.Params.awsUrl}}objects/{{.Params.thumbnail}}"
+                   alt="Image of {{ .Title }}">
+          </a>
       {{ end }}
   </div>
 
