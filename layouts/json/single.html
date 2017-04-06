@@ -2,16 +2,9 @@
 {{ $objs := where .Site.Pages "Type" "object" }}
 {{ range $index, $o := $objs }}{{ if $index }},{{ end }}
     {
-    "date": "{{$o.Date}}",
-    {{/*
-    TODO: connect this to the object type so I
-    can pull in these other fields.
-    */}}
-    {{/* "image": "{{$o.Image}}", */}}
-    "notes": "{{$o.Params.notes}}",
-    {{/* "object_use": "{{$o.Object_use}}", */}}
-    {{/* "thumbnail": "{{$o.Thumbnail}}" */}}
-    "title": "{{$o.Title}}"
+        "title": "{{$o.Title}}",
+        "date": "{{$o.Date}}",
+        "notes": "{{$o.Params.notes}}"
     }
 {{end}}
 ]

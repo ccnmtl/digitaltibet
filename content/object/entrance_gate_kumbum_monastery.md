@@ -1,6 +1,6 @@
 +++
 source_title = "Private Collection (Gray Tuttle)"
-notes = "Entrance gate to Kumbum (Sku 'bum) Monastery, founded in 16th century; new construction in the 21st century. A hospital is visible in the background.\r\nPhoto taken: 2006"
+notes = "Entrance gate to Kumbum (Sku 'bum) Monastery, founded in 16th century; new construction in the 21st century. A hospital is visible in the background. Photo taken: 2006"
 material = "Stone | Wood"
 object_use = "Agricultural"
 cultural_region = "Amdo"

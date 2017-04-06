@@ -1,6 +1,6 @@
 +++
 source_title = "Private Collection (Gray Tuttle)"
-notes = "This monastery should not be confused with the lower (original) Drotsang Monastery, just down the valley. For details on the history of these two monasteries, see Louis Schram's \"The Monguors of Kansu\"."
+notes = "This monastery should not be confused with the lower (original) Drotsang Monastery, just down the valley. For details on the history of these two monasteries, see Louis Schram's 'The Monguors of Kansu'."
 material = "Cotton | Stone | Wood"
 object_use = "Religious"
 cultural_region = "Amdo"

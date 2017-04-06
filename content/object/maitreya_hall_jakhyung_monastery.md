@@ -1,6 +1,6 @@
 +++
 source_title = "Private Collection (Gray Tuttle)"
-notes = "Jakhyung Monastery, founded in the 14th century with major renovations in the late 20th century-early 21st century. \r\nThis hall is known for blessing those seeking to have children. Such seekers come on pilgrimage to circumambulate and pray at the temple."
+notes = "Jakhyung Monastery, founded in the 14th century with major renovations in the late 20th century-early 21st century. This hall is known for blessing those seeking to have children. Such seekers come on pilgrimage to circumambulate and pray at the temple."
 material = "Copper | Cotton | Gold | Iron | Stone | Wood"
 object_use = "Administrative | Other"
 cultural_region = "Amdo"

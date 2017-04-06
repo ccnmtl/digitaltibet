@@ -1,6 +1,6 @@
 +++
 source_title = "Private Collection (Gray Tuttle)"
-notes = "Wall mural in main assembly hall at Jakhyung Monastery, founded in the 14th century with major renovations in the late 20th century-early 21st century.\r\n"
+notes = "Wall mural in main assembly hall at Jakhyung Monastery, founded in the 14th century with major renovations in the late 20th century-early 21st century."
 material = "Cotton | Wood"
 object_use = "Other | Religious"
 cultural_region = "Amdo"

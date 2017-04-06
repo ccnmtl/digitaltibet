@@ -1,6 +1,6 @@
 +++
 source_title = "Rubin Museum of Art"
-notes = "Brocade detail:  Official insignia of the Ming Dynasty, 15th-17th Century\r\n\r\n"
+notes = "Brocade detail:  Official insignia of the Ming Dynasty, 15th-17th Century"
 material = "Embroidery"
 object_use = "Decorative | Religious"
 date_range = "17th"
