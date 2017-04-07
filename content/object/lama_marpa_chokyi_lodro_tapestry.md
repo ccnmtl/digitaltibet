@@ -1,5 +1,5 @@
 +++
-notes = "Teacher (Lama) - Marpa Chokyi Lodro, Tibet, Kagyu lineage.\r\n"
+notes = "Teacher (Lama) - Marpa Chokyi Lodro, Tibet, Kagyu lineage."
 material = "Silk"
 object_use = "Religious"
 date_range = "18th"

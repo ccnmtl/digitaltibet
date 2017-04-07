@@ -1,6 +1,6 @@
 +++
 source_title = "Private Collection (Gray Tuttle)"
-notes = "Shadzong Monastery was founded in the 12th century, though these buildings have probably all been rebuilt since the Cultural Revolution ended (1976). \r\n"
+notes = "Shadzong Monastery was founded in the 12th century, though these buildings have probably all been rebuilt since the Cultural Revolution ended (1976)."
 material = "Stone | Wood"
 object_use = "Other | Religious"
 cultural_region = "Amdo"

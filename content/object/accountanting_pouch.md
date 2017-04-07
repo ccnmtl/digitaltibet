@@ -1,6 +1,6 @@
 +++
 source_title = "C. V. Starr East Asian Library"
-notes = "Tibetan term: Mde’u khug. Currently at the Rare Books Collection, C.V. Starr East Asian Library. Please note, the \"bits\" to the left of the pouch are of mixed age and origin. \r\n"
+notes = "Tibetan term: Mde’u khug. Currently at the Rare Books Collection, C.V. Starr East Asian Library. Please note, the 'bits' to the left of the pouch are of mixed age and origin."
 material = "Animal Hide and Fur"
 object_use = "Administrative"
 cultural_region = "Central Tibet (Ütsang)"

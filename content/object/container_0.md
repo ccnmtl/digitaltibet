@@ -1,6 +1,6 @@
 +++
 source_title = "C. V. Starr East Asian Library"
-notes = "(Tib. snag bum. )For a brief article about similar objects, see Christopher Calderhead, \"Hidden Treasures: Visiting the Latse Library,\" Letters from New York, v.4 (2007): 36-51."
+notes = "(Tib. snag bum. )For a brief article about similar objects, see Christopher Calderhead, 'Hidden Treasures: Visiting the Latse Library,' Letters from New York, v.4 (2007): 36-51."
 material = "Metal (generic)"
 object_use = "Administrative"
 cultural_region = "Central Tibet (Ütsang)"
