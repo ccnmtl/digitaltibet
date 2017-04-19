@@ -22,9 +22,9 @@ class Site:
     def login(self):
         self.session = Session()
         # drupal requires that you first GET the form
-        r = self.session.get(self.url())
+        self.session.get(self.url())
         # then POST to it
-        s = self.session.post(
+        self.session.post(
             self.url(), data={
                 'name': self.username, 'pass': self.password,
                 'form_id': 'user_login',
@@ -75,7 +75,6 @@ class CollectionPage(Fetchable):
         for node in soup(class_='node'):
             path = node.find('a').attrs['href']
             try:
-                # ntype = td.next_sibling.next_sibling.next_sibling.next_sibling.ul.li.a.string
                 yield NodePage(self.session, path)
             except AttributeError:
                 pass
@@ -124,7 +123,7 @@ class Obj:
         return s.replace('\n\n', '\n')
 
     def local_path(self):
-        return "content/{}/{}.md".format(self.ntype, self.basename())
+        return "content/{}/{}.md".format(self.ntype, self.title())
 
     def basename(self):
         return os.path.basename(self.path).replace('%', '')
@@ -133,9 +132,11 @@ class Obj:
         m = re.match(r'^((\w|\s)*) \| .*$', self.soup.title.string)
         if m:
             title = m.group(1)
+            title = title.replace(' | Engaging Digital Tibet', '')
             return title
         else:
-            return self.soup.title.string
+            return self.soup.title.string.replace(
+                ' | Engaging Digital Tibet', '')
 
     def get_field(self, fieldname):
         content = self.soup.find(class_='node')
@@ -151,7 +152,9 @@ class Obj:
 
         if field is not None:
             v = field.find(class_='field-item').string
-            return v
+            cleaned_str = v.replace('"', '\'')
+            cleaned_str = cleaned_str.replace('\r\n', '')
+            return cleaned_str
         else:
             return None
 
@@ -192,8 +195,10 @@ def main():
             nt = node.get()
             filename = nt.local_path()
             with open(filename, 'w') as f:
-                print('writing ' + filename)
-                f.write(nt.as_toml())
+                if filename != 'content/object/vidthumb_480x360.md':
+                    print('writing ' + filename)
+                    f.write(nt.as_toml())
+
 
 if __name__ == "__main__":
     main()
