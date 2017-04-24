@@ -4,6 +4,7 @@ from requests import Session
 import os
 import re
 from bs4 import BeautifulSoup
+from slugify import slugify
 
 
 HOST = "digitaltibet.ccnmtl.columbia.edu"
@@ -123,7 +124,8 @@ class Obj:
         return s.replace('\n\n', '\n')
 
     def local_path(self):
-        return "content/{}/{}.md".format(self.ntype, self.title())
+        return "content/{}/{}.md".format(
+            self.ntype, slugify(self.title()))
 
     def basename(self):
         return os.path.basename(self.path).replace('%', '')
@@ -195,7 +197,7 @@ def main():
             nt = node.get()
             filename = nt.local_path()
             with open(filename, 'w') as f:
-                if filename != 'content/object/vidthumb_480x360.md':
+                if filename != 'content/object/vidthumb-480x360.md':
                     print('writing ' + filename)
                     f.write(nt.as_toml())
 

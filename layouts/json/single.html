@@ -3,8 +3,14 @@
 {{ range $index, $o := $objs }}{{ if $index }},{{ end }}
     {
         "title": "{{$o.Title}}",
-        "date": "{{$o.Date}}",
+        "date": "{{ $o.Date | safeHTML }}",
+        "date_range": "{{$o.Params.date_range}}",
+        "image_date": "{{$o.Params.image_date}}",
         "thumbnail": "{{$o.Params.thumbnail}}",
+        "source_title": "{{$o.Params.source_title}}",
+        "cultural_region": "{{$o.Params.cultural_region}}",
+        "object_use": "{{$o.Params.object_use}}",
+        "material": "{{$o.Params.material}}",
         "notes": "{{$o.Params.notes}}"
     }
 {{end}}
