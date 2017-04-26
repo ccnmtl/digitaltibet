@@ -17,3 +17,8 @@ article.li {
 footer {
     margin-bottom: 1rem;
 }
+
+#search-results li img {
+    max-width: 64px;
+    max-height: 64px;
+}
