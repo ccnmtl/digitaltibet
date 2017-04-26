@@ -16,7 +16,6 @@
     "url": "https://github.com/ccnmtl/digitaltibet/issues"
   },
   "devDependencies": {
-    "jshint": "~2.9.1",
-    "jscs": "~3.0.7"
+    "eslint": "^3.19.0"
   }
 }
