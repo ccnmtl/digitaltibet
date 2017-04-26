@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-/* globals lunr */
+/* globals lunr, AWS_URL */
 
 (function() {
     // https://gist.github.com/mathewbyrne/1280286#gistcomment-2005392
@@ -135,13 +135,21 @@
             $el.prepend('<h4>Search results:</h4>');
             results.slice(0, 10).forEach(function(r) {
                 var d = data[r.ref];
-                var $li = $('<li></li>');
-                var $a = $('<a>', {
-                    href: '/object/' + slugify(d.title) + '/',
-                    html: d.title
-                });
+                var href = '/object/' + slugify(d.title) + '/';
+                var imgSrc = AWS_URL + 'objects/' + d.thumbnail;
 
-                $li.append($a);
+                var $li = $(
+                    '<li class="media my-4">' +
+                        '<a href="' + href + '">' +
+                        '<img class="d-flex mr-3" src="' +
+                        imgSrc + '" alt="' + d.title + ' image">' +
+                        '</a>' +
+                        '<div class="media-body">' +
+                        '<h5 class="mt-0">' +
+                        '<a href="' + href + '">' + d.title + '</a>' +
+                        '</h5>' +
+                        '</div>' +
+                        '</li>');
                 $el.find('ul').append($li);
             });
         }
