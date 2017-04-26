@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 $(document).ready(function() {
     // Connect the panzoomer up to the user controls
     var $section = $('.collection-image').first();

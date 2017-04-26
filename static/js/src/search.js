@@ -1,12 +1,9 @@
-/* jscs:disable requireCamelCaseOrUpperCaseIdentifiers */
+/* eslint-env jquery */
+/* globals lunr */
 
 (function() {
     // https://gist.github.com/mathewbyrne/1280286#gistcomment-2005392
     var slugify = function(text) {
-        var a = 'àáäâèéëêìíïîòóöôùúüûñçßÿœæŕśńṕẃǵǹḿǘẍźḧ·/_,:;';
-        var b = 'aaaaeeeeiiiioooouuuuncsyoarsnpwgnmuxzh------';
-        var p = new RegExp(a.split('').join('|'), 'g');
-
         return text.toString().toLowerCase()
             .replace(/\s+/g, '-')           // Replace spaces with -
             .replace(/&/g, '-and-')         // Replace & with 'and'
@@ -101,9 +98,6 @@
                           $('select.dt-source'));
         initializeOptions(categories.objectUses,
                           $('select.dt-object-use'));
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ', ' + error;
-        console.error('Error getting Hugo index file:', err);
     });
 
     var doSearch = function() {
