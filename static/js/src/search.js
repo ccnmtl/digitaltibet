@@ -122,8 +122,11 @@
                 'object_use:' + $('select.dt-object-use').val());
         }
 
-        var mainTerm = '*' + q + '*';
-        searchParams.push(mainTerm);
+        if (q) {
+            var mainTerm = '*' + q + '*';
+            searchParams.push(mainTerm);
+        }
+
         results = index.search(searchParams.join(' '));
 
         var $el = $('#search-results');
@@ -165,22 +168,9 @@
             }
         });
 
-        $('select.dt-date').change(function() {
-            $('#search-results>ul').empty();
-            $('#search-results>h4').remove();
-            return doSearch();
-        });
-        $('select.dt-cultural-region').change(function() {
-            $('#search-results>ul').empty();
-            $('#search-results>h4').remove();
-            return doSearch();
-        });
-        $('select.dt-source').change(function() {
-            $('#search-results>ul').empty();
-            $('#search-results>h4').remove();
-            return doSearch();
-        });
-        $('select.dt-object-use').change(function() {
+        $('select.dt-date,select.dt-cultural-region,' +
+          'select.dt-source,select.dt-object-use'
+        ).change(function() {
             $('#search-results>ul').empty();
             $('#search-results>h4').remove();
             return doSearch();
