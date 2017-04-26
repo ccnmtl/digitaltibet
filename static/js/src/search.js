@@ -136,7 +136,7 @@
             $el.find('ul').append('<div>No results.</div>');
         } else {
             $el.prepend('<h4>Search results:</h4>');
-            results.slice(0, 10).forEach(function(r) {
+            results.slice(0, 20).forEach(function(r) {
                 var d = data[r.ref];
                 var href = '/object/' + slugify(d.title) + '/';
                 var imgSrc = AWS_URL + 'objects/' + d.thumbnail;
