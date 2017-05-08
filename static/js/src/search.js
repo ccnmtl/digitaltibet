@@ -101,7 +101,7 @@
     });
 
     var doSearch = function() {
-        var q = $('#q').val();
+        var q = $.trim($('#q').val());
 
         var searchParams = [];
 
