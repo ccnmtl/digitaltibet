@@ -106,28 +106,40 @@
         var searchParams = [];
 
         if ($('select.dt-date').val()) {
-            searchParams.push(
-                'date_range:' + $('select.dt-date').val());
+            searchParams.push([
+                'date_range',  $('select.dt-date').val()
+            ]);
         }
         if ($('select.dt-cultural-region').val()) {
-            searchParams.push(
-                'cultural_region:' + $('select.dt-cultural-region').val());
+            searchParams.push([
+                'cultural_region', $('select.dt-cultural-region').val()
+            ]);
         }
         if ($('select.dt-source').val()) {
-            searchParams.push(
-                'source_title:' + $('select.dt-source').val());
+            searchParams.push([
+                'source_title', $('select.dt-source').val()
+            ]);
         }
         if ($('select.dt-object-use').val()) {
-            searchParams.push(
-                'object_use:' + $('select.dt-object-use').val());
+            searchParams.push([
+                'object_use', $('select.dt-object-use').val()
+            ]);
         }
 
+        var mainTerm = '';
         if (q) {
-            var mainTerm = '*' + q + '*';
+            mainTerm = '*' + q + '*';
             searchParams.push(mainTerm);
         }
 
-        results = index.search(searchParams.join(' '));
+        results = index.query(function(q) {
+            q.term(mainTerm);
+            searchParams.forEach(function(param) {
+                var k = param[0];
+                var v = param[1];
+                q.term(v, { fields: [k] });
+            });
+        });
 
         var $el = $('#search-results');
         $el.find('ul').empty();
