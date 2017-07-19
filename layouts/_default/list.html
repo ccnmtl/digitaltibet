@@ -1,19 +1,16 @@
 {{ partial "default_head.html" . }}
 <div class="list">
 
-  <div class="row">
-    <div class="col-md-8">
-      <header class="page-title">{{ .Title }}</header>
+    <div class="row">
+        <header class="page-title">{{ .Title }}</header>
 
-      {{ range (.Paginate .Data.Pages).Pages }}
-      {{ .Render "li" }}
-      {{ end }}
-      {{ partial "pagination.html" . }}
+        <div class="card-columns">
+            {{ range (.Paginate .Data.Pages).Pages }}
+                {{ .Render "card" }}
+            {{ end }}
+        </div>
+        {{ partial "pagination.html" . }}
     </div>
-    <div class="col-md-4">
-      {{ partial "sidebar.html" . }}
-    </div>
-  </div>
 
 </div>
 {{ partial "default_foot.html" . }}

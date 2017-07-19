@@ -1,0 +1,15 @@
+<div class="card">
+    {{ if .Params.thumbnail }}
+        <a href="{{ .Permalink }}">
+            <img src="{{.Site.Params.awsUrl}}objects/{{.Params.thumbnail}}"
+                 class="card-img-top img-fluid"
+                 alt="Image of {{ .Title }}">
+        </a>
+    {{ end }}
+
+    <div class="card-block">
+        <h4 class="card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h4>
+    </div>
+</div>
