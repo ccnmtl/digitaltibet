@@ -1,11 +1,11 @@
-baseUrl = "https://digitaltibet.ccnmtl.columbia.edu"
+baseUrl = "https://digitaltibet.ctl.columbia.edu"
 languageCode = "en-us"
 title = "Engaging Digital Tibet"
 
 [params]
 author = "Columbia University's Center for Teaching and Learning"
 dateForm = "Mon, Jan 2, 2006"
-awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-stage/"
+awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-prod/"
 
 [permalinks]
 post = "/blog/:year/:month/:day/:title/"
