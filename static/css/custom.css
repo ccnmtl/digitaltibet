@@ -2,15 +2,7 @@
     margin-bottom: 3rem;
 }
 
-.row {
-    margin-bottom: 3rem;
-}
-
 .panzoomer {
-    margin-bottom: 1rem;
-}
-
-article.li {
     margin-bottom: 1rem;
 }
 
@@ -21,4 +13,10 @@ footer {
 #search-results li img {
     max-width: 64px;
     max-height: 64px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-columns {
+        column-count: 4;
+    }
 }
