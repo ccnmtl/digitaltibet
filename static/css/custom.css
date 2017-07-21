@@ -6,6 +6,15 @@
     margin-bottom: 1rem;
 }
 
+.collection-image {
+    width: 100%;
+}
+
+.collection-image img {
+    margin: 0 auto;
+    max-height: 800px;
+}
+
 footer {
     margin-bottom: 1rem;
 }
