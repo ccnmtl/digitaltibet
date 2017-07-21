@@ -9,13 +9,11 @@
                 <ul class="list-unstyled"></ul>
             </div>
 
-            {{ partial "pagination.html" . }}
             <div class="card-columns">
-                {{ range .Paginator.Pages }}
+                {{ range .Pages }}
                     {{ .Render "card" }}
                 {{ end }}
             </div>
-            {{ partial "pagination.html" . }}
         </div>
     </div>
 
