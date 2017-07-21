@@ -5,11 +5,10 @@
         <header class="page-title">{{ .Title }}</header>
 
         <div class="card-columns">
-            {{ range (.Paginate .Data.Pages).Pages }}
+            {{ range .Pages }}
                 {{ .Render "card" }}
             {{ end }}
         </div>
-        {{ partial "pagination.html" . }}
     </div>
 
 </div>
