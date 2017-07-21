@@ -2,17 +2,36 @@
     margin-bottom: 3rem;
 }
 
+.searchform label {
+    width: 100%;
+}
+
 .panzoomer {
     margin-bottom: 1rem;
+    width: 100%;
+}
+
+.panzoomer button,
+.panzoomer input {
+    margin-left: .8em;
+}
+
+input.zoom-range {
+    width: 100%;
 }
 
 .collection-image {
     width: 100%;
+    margin-bottom: 1em;
 }
 
 .collection-image img {
     margin: 0 auto;
     max-height: 800px;
+}
+
+.object-details {
+    margin-bottom: 1em;
 }
 
 footer {
