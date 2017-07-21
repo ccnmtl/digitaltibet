@@ -5,7 +5,7 @@
         <header class="page-title">{{ .Title }}</header>
 
         <div class="card-columns">
-            {{ range .Pages }}
+            {{ range where .Data.Pages "Section" "object" }}
                 {{ .Render "card" }}
             {{ end }}
         </div>

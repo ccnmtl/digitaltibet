@@ -9,8 +9,3 @@ awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-prod/"
 
 [permalinks]
 post = "/blog/:year/:month/:day/:title/"
-
-[[menu.main]]
-name = "Help"
-identifier = "help"
-url = "/help/"
