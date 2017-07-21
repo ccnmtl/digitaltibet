@@ -7,8 +7,8 @@
         return text.toString().toLowerCase()
             .replace(/\s+/g, '-')           // Replace spaces with -
             .replace(/&/g, '-and-')         // Replace & with 'and'
-            .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
-            .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+            .replace(/[^\w-]+/g, '')       // Remove all non-word chars
+            .replace(/--+/g, '-')         // Replace multiple - with single -
             .replace(/^-+/, '')             // Trim - from start of text
             .replace(/-+$/, '');            // Trim - from end of text
     };
@@ -90,14 +90,14 @@
         categories.sources.sort();
         categories.objectUses.sort();
 
-        initializeOptions(categories.dates,
-                          $('select.dt-date'));
-        initializeOptions(categories.culturalRegions,
-                          $('select.dt-cultural-region'));
-        initializeOptions(categories.sources,
-                          $('select.dt-source'));
-        initializeOptions(categories.objectUses,
-                          $('select.dt-object-use'));
+        initializeOptions(
+            categories.dates, $('select.dt-date'));
+        initializeOptions(
+            categories.culturalRegions, $('select.dt-cultural-region'));
+        initializeOptions(
+            categories.sources, $('select.dt-source'));
+        initializeOptions(
+            categories.objectUses, $('select.dt-object-use'));
     });
 
     var doSearch = function() {
