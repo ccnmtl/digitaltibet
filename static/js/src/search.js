@@ -132,6 +132,12 @@
             searchParams.push(mainTerm);
         }
 
+        if (searchParams.length === 0) {
+            // No search params? Then just show everything.
+            $('#all-objects').show();
+            return false;
+        }
+
         results = index.query(function(q) {
             q.term(mainTerm);
             searchParams.forEach(function(param) {
@@ -142,57 +148,50 @@
         });
 
         var $el = $('#search-results');
-        $el.find('ul').empty();
         $el.show();
-        if (results.length === 0) {
-            $el.find('ul').append('<div>No results.</div>');
-        } else {
-            $el.prepend('<h4>Search results:</h4>');
-            results.slice(0, 20).forEach(function(r) {
-                var d = data[r.ref];
-                var href = '/object/' + slugify(d.title) + '/';
-                var imgSrc = AWS_URL + 'objects/' + d.thumbnail;
+        $('#all-objects').hide();
 
-                var $li = $(
-                    '<li class="media my-4">' +
-                        '<a href="' + href + '">' +
-                        '<img class="d-flex mr-3" src="' +
-                        imgSrc + '" alt="' + d.title + ' image">' +
-                        '</a>' +
-                        '<div class="media-body">' +
-                        '<h5 class="mt-0">' +
-                        '<a href="' + href + '">' + d.title + '</a>' +
-                        '</h5>' +
-                        '</div>' +
-                        '</li>');
-                $el.find('ul').append($li);
-            });
-        }
+        results.forEach(function(r) {
+            var d = data[r.ref];
+            var href = '/object/' + slugify(d.title) + '/';
+            var imgSrc = AWS_URL + 'objects/' + d.thumbnail;
+
+            var $card = $(
+                '<div class="card">' +
+                    '<a href="' + href + '">' +
+                    '<img src="' + imgSrc + '" ' +
+                    'class="card-img-top img-fluid" ' +
+                    'alt="Image of ' + d.title + '">' +
+                    '</a>' +
+
+                '<div class="card-block">' +
+                    '<h4 class="card-title">' +
+                    '<a href="' + href + '">' + d.title + '</a>' +
+                    '</h4>' +
+                    '</div>' +
+                    '</div>'
+            );
+            $el.append($card);
+        });
         return false;
     };
 
     var clearSearch = function() {
-        $('#search-results>ul').empty();
-        $('#search-results>h4').remove();
-        $('#search-results').hide();
+        $('#search-results').empty();
     };
 
     $(document).ready(function() {
         $('#search').click(doSearch);
         $('#clear-search').click(clearSearch);
         $('#q').keyup(function() {
-            $('#search-results>ul').empty();
-            $('#search-results>h4').remove();
-            if ($(this).val().length > 2) {
-                return doSearch();
-            }
+            clearSearch();
+            return doSearch();
         });
 
         $('select.dt-date,select.dt-cultural-region,' +
           'select.dt-source,select.dt-object-use'
         ).change(function() {
-            $('#search-results>ul').empty();
-            $('#search-results>h4').remove();
+            clearSearch();
             return doSearch();
         });
     });
