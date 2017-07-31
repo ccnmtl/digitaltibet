@@ -145,6 +145,9 @@
                 var v = param[1];
                 q.term(v, { fields: [k] });
             });
+        }).filter(function(result) {
+            return Object.keys(result.matchData.metadata).length ===
+                searchParams.length;
         });
 
         var $el = $('#search-results');
