@@ -129,22 +129,26 @@
         var mainTerm = '';
         if (q) {
             mainTerm = '*' + q + '*';
-            searchParams.push(mainTerm);
         }
 
-        if (searchParams.length === 0) {
+        if (!q && searchParams.length === 0) {
             // No search params? Then just show everything.
             $('#all-objects').show();
             return false;
         }
 
         results = index.query(function(q) {
-            q.term(mainTerm);
             searchParams.forEach(function(param) {
                 var k = param[0];
                 var v = param[1];
-                q.term(v, { fields: [k] });
+                if (v) {
+                    q.term(v.toLowerCase(), {fields: [k]});
+                }
             });
+            if (mainTerm) {
+                q.term(mainTerm.toLowerCase());
+                searchParams.push(mainTerm.toLowerCase());
+            }
         }).filter(function(result) {
             return Object.keys(result.matchData.metadata).length ===
                 searchParams.length;
