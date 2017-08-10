@@ -1,6 +1,6 @@
 # expect JS_FILES to be set from the main Makefile, but default
 # to everything in media/js otherwise.
-JS_FILES ?= static/js/src
+JS_FILES ?= static/js/src static/js/tests
 
 NODE_MODULES ?= ./node_modules
 JS_SENTINAL ?= $(NODE_MODULES)/sentinal
