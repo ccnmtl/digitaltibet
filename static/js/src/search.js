@@ -1,6 +1,9 @@
 /* eslint-env jquery */
 /* eslint-env node */
-/* globals AWS_URL */
+
+if (typeof AWS_URL === 'undefined') {
+    var AWS_URL = '';
+}
 
 if (typeof require === 'function') {
     var jsdom = require('jsdom');
@@ -78,7 +81,13 @@ if (typeof require === 'function') {
      * ]
      */
     Search.prototype.doSearch = function(params) {
-        var q = params[0];
+        var mainTerm = params[0].split(' ').map(function(x) {
+            if (x) {
+                return '*' + x + '*';
+            } else {
+                return x;
+            }
+        });
 
         var searchParams = [];
 
@@ -95,12 +104,7 @@ if (typeof require === 'function') {
             searchParams.push(['object_use', params[4]]);
         }
 
-        var mainTerm = '';
-        if (q) {
-            mainTerm = '*' + q + '*';
-        }
-
-        if (!q && searchParams.length === 0) {
+        if ((mainTerm.length === 0 || !mainTerm[0]) && searchParams.length === 0) {
             // No search params? Then just show everything.
             $('#all-objects').show();
             return false;
@@ -114,10 +118,12 @@ if (typeof require === 'function') {
                     q.term(v.toLowerCase(), {fields: [k]});
                 }
             });
-            if (mainTerm) {
-                q.term(mainTerm.toLowerCase());
-                searchParams.push(mainTerm.toLowerCase());
-            }
+            mainTerm.forEach(function(param) {
+                if (param) {
+                    q.term(param.toLowerCase());
+                    searchParams.push(param.toLowerCase());
+                }
+            });
         }).filter(function(result) {
             return Object.keys(result.matchData.metadata).length ===
                 searchParams.length;
@@ -177,6 +183,7 @@ if (typeof require === 'function') {
             this.field('notes');
             this.field('date_range');
             this.field('cultural_region');
+            this.field('material');            
             this.field('source_title');
             this.field('object_use');
 
