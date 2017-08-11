@@ -147,7 +147,7 @@ if (typeof require === 'function') {
                     'alt="Image of ' + d.title + '">' +
                     '</a>' +
 
-                '<div class="card-block">' +
+                '<div class="card-body">' +
                     '<h4 class="card-title">' +
                     '<a href="' + href + '">' + d.title + '</a>' +
                     '</h4>' +
