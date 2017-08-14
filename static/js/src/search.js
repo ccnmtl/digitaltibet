@@ -177,7 +177,7 @@ if (typeof require === 'function') {
     };
 
     var initializeLunrIndex = function(items) {
-        var idx = lunr(function() {
+        return lunr(function() {
             this.ref('title');
             this.field('title');
             this.field('notes');
@@ -187,18 +187,35 @@ if (typeof require === 'function') {
             this.field('source_title');
             this.field('object_use');
 
-            items.forEach(function(d) {
+            items.forEach(function(e) {
+                var d = $.extend({}, e);
+
+                // lunr.js tokenizes terms by spaces and dashes:
+                //
+                //    lunr.tokenizer.separator = /[\s\-]+/
+                //
+                // This causes faceting to not behave as expected. Adjusting the separator
+                // to not include spaces hurts performance a lot (I'm still figuring out why
+                // that happens).
+                //
+                // So, we'll work around this by treating terms that we want to use as
+                // facets as long words without any whitespace or symbols - only alphanumeric
+                // characters.
+                //
+                // see: https://github.com/olivernn/lunr.js/issues/266#issuecomment-302869894
+                d.cultural_region = d.cultural_region.replace(/\W/g, '');
+                d.object_use = d.object_use.replace(/\W/g, '');
+                d.source_title = d.source_title.replace(/\W/g, '');
+
                 this.add(d);
             }, this);
         });
-
-        return idx;
     };
 
     var initializeOptions = function(options, $selectEl) {
         options.forEach(function(e) {
             $selectEl.append(
-                '<option value="' + e + '">' +
+                '<option value="' + e.replace(/\W/g, '') + '">' +
                     e + '</option>');
         });
     };
