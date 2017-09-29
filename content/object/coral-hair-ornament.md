@@ -8,6 +8,6 @@ source_title = "ཚེ་རིང་སྐྱྱིད། Tse ring skyid (Myrtl
 material = "Cotton | Silk | Silver"
 date = "2017-04-24T16:40:47.342165"
 thumbnail = "Myrtle 1.preview.jpg"
-image = "Myrtle 1.2000x2000.jpg"
+image = "Myrtle 1.jpg"
 size = "28x17x3cm (upper decoration); 40x47x6cm (lower decoration)"
 +++
