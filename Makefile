@@ -3,7 +3,7 @@ PROD_URL=https://digitaltibet.ctl.columbia.edu/
 STAGING_BUCKET=digitaltibet.stage.ccnmtl.columbia.edu
 PROD_BUCKET=digitaltibet.ctl.columbia.edu
 INTERMEDIATE_STEPS ?= make $(PUBLIC)/js/all.json
-HUGO=/usr/local/bin/hugo-0.25.1
+HUGO=/usr/local/bin/hugo-0.35
 
 include *.mk
 
