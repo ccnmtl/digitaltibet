@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="/css/custom.css">
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.BaseURL }}/index.xml">
 
+        {{ "<!-- CSS for cookie policy -->" | safeHTML }}
+        <link rel="stylesheet" href="https://search.sites.columbia.edu/cu-privacy-notice/cu-privacy-notice.css" />
+
         {{ if eq .URL "/" }}
             <title>{{ .Title }}</title>
             <meta property='og:title' content="{{ .Title }}">
