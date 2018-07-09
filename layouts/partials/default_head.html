@@ -24,8 +24,8 @@
         {{ end }}
 
         <meta property="og:url" content="{{ .Permalink }}">
-        {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
-        {{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}images/{{ . }}">{{ end }}
+        {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+        {{ with .Site.Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}images/{{ . }}">{{ end }}
 
         <script>
         var AWS_URL = {{ .Site.Params.awsUrl }};

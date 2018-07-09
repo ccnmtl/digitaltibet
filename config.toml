@@ -6,6 +6,7 @@ title = "Engaging Digital Tibet"
 author = "Columbia University's Center for Teaching and Learning"
 dateForm = "Mon, Jan 2, 2006"
 awsUrl = "https://s3.amazonaws.com/ccnmtl-digitaltibet-static-prod/"
+description = "Engaging Digital Tibet was created to enhance the teaching and learning of Tibetan material history. The site contains an advanced, searchable repository of Tibetan objects, allowing for a collaborative decoding and description of Tibetan culture itself."
 
 [permalinks]
 post = "/blog/:year/:month/:day/:title/"
