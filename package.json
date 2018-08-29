@@ -22,5 +22,10 @@
     "lunr": "^2.1.2",
     "mocha": "^5.1.1"
   },
+  "greenkeeper": {
+    "ignore": [
+      "jsdom"
+    ]
+  },
   "dependencies": {}
 }
