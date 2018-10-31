@@ -7,7 +7,7 @@ JS_SENTINAL ?= $(NODE_MODULES)/sentinal
 ESLINT ?= $(NODE_MODULES)/.bin/eslint
 
 $(JS_SENTINAL): package.json
-	rm -rf $(NODE_MODULES)
+	rm -rf $(NODE_MODULES) package-lock.json
 	npm install
 	touch $(JS_SENTINAL)
 
