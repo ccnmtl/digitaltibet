@@ -20,7 +20,7 @@
     "jquery": "^3.5.0",
     "jsdom": "^16.2.2",
     "lunr": "^2.3.8",
-    "mocha": "^7.0.1"
+    "mocha": "^8.1.1"
   },
   "greenkeeper": {
     "ignore": [
