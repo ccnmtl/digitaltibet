@@ -8,17 +8,17 @@ var Search = require('../src/search.js').Search;
 
 var items = JSON.parse(fs.readFileSync('static/js/tests/all.json', 'utf8'));
 
-//describe('Search', function() {
-//    it('can be initialized with an empty array', function() {
-//        var s = new Search([]);
-//        assert.strictEqual(s.results.length, 0);
-//    });
-//
-//    it('can be initialized with items', function() {
-//        var s = new Search(items);
-//        assert.strictEqual(s.results.length, 0);
-//    });
-//});
+describe('Search', function() {
+    it('can be initialized with an empty array', function() {
+        var s = new Search([]);
+        assert.strictEqual(s.results.length, 0);
+    });
+
+    it('can be initialized with items', function() {
+        var s = new Search(items);
+        assert.strictEqual(s.results.length, 0);
+    });
+});
 
 describe('Search.doSearch()', function() {
     it('returns the right elements when empty', function() {
