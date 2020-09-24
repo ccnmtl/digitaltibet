@@ -44,9 +44,10 @@ describe('Search.doSearch()', function() {
 
         s.doSearch(['silk', null, null, null, null]);
         assert.strictEqual(s.results.length, 12);
-        assert.strictEqual(s.results[0].ref, 'Vajrasattva Tapestry');
-        assert.strictEqual(
-            s.results[1].ref, 'Lama Marpa Chokyi Lodro Tapestry');
+
+        const titles = s.results.map(x => x.ref);
+        assert.ok(titles.indexOf('Lama Marpa Chokyi Lodro Tapestry') > -1);
+        assert.ok(titles.indexOf('Vajrasattva Tapestry') > -1);
     });
 
     it('behaves correctly when searching with multi-word terms', function() {
@@ -62,8 +63,9 @@ describe('Search.doSearch()', function() {
         //assert.strictEqual(s.results[1].ref, 'The Heroic Being Vajrasattva ');
 
         s.doSearch(['', null, null, 'RubinMuseumofArt', null]);
+        const titles = s.results.map(x => x.ref);
         assert.strictEqual(s.results.length, 16);
-        assert.strictEqual(s.results[0].ref, 'Mahakala, Dance Apron');
+        assert.ok(titles.indexOf('Mahakala, Dance Apron') > -1);
     });
 
     it('can search on multiple facets', function() {
@@ -82,23 +84,27 @@ describe('Search.doSearch()', function() {
 
         s.doSearch(['', null, 'amdo', null, null]);
         assert.strictEqual(s.results.length, 23);
-        assert.strictEqual(s.results[0].ref, 'Side Hall, Tsenpo Monastery');
-        assert.strictEqual(s.results[1].ref, 'Black Tent');
-        assert.strictEqual(s.results[2].ref, 'Painted Bones');
+        let titles = s.results.map(x => x.ref);
+        assert.ok(titles.indexOf('Side Hall, Tsenpo Monastery'));
+        assert.ok(titles.indexOf('Black Tent') > -1);
+        assert.ok(titles.indexOf('Painted Bones') > -1);
 
         s.doSearch(['', null, 'Amdo', null, null]);
         assert.strictEqual(s.results.length, 23);
-        assert.strictEqual(s.results[0].ref, 'Side Hall, Tsenpo Monastery');
-        assert.strictEqual(s.results[1].ref, 'Black Tent');
-        assert.strictEqual(s.results[2].ref, 'Painted Bones');
+        titles = s.results.map(x => x.ref);
+        assert.ok(titles.indexOf('Side Hall, Tsenpo Monastery'));
+        assert.ok(titles.indexOf('Black Tent') > -1);
+        assert.ok(titles.indexOf('Painted Bones') > -1);
 
         s.doSearch(['', '21st', 'Amdo', null, null]);
         assert.strictEqual(s.results.length, 2);
-        assert.strictEqual(s.results[0].ref, 'Painted Bones');
+        titles = s.results.map(x => x.ref);
+        assert.ok(titles.indexOf('Painted Bones') > -1);
 
         s.doSearch(['', '20th', 'Amdo', null, null]);
         assert.strictEqual(s.results.length, 10);
-        assert.strictEqual(s.results[0].ref, 'Protector Deity Wall Mural');
-        assert.strictEqual(s.results[1].ref, 'Black Tent');
+        titles = s.results.map(x => x.ref);
+        assert.ok(titles.indexOf('Protector Deity Wall Mural') > -1);
+        assert.ok(titles.indexOf('Black Tent') > -1);
     });
 });
