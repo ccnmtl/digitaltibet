@@ -16,7 +16,7 @@
     "url": "https://github.com/ccnmtl/digitaltibet/issues"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "jquery": "^3.5.0",
     "jsdom": "^17.0.0",
     "lunr": "^2.3.8",
