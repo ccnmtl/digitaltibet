@@ -31,6 +31,15 @@
         <script>
         var AWS_URL = {{ .Site.Params.awsUrl }};
         </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-55845Z0C86"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-55845Z0C86', { 'anonymize_ip': true });
+        </script>
 
     </head>
 
