@@ -8,7 +8,9 @@ if (typeof AWS_URL === 'undefined') {
 if (typeof require === 'function') {
     var jsdom = require('jsdom');
     var JSDOM = jsdom.JSDOM;
+    // eslint-disable-next-line no-redeclare
     var window = new JSDOM('<!DOCTYPE html>').window;
+    // eslint-disable-next-line no-redeclare
     var $ = require('jquery')(window);
     var lunr = require('lunr');
 }
