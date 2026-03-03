@@ -1,6 +1,3 @@
-/* eslint-env jquery */
-/* eslint-env node */
-
 if (typeof AWS_URL === 'undefined') {
     var AWS_URL = '';
 }

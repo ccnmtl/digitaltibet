@@ -1,4 +1,3 @@
-/* eslint-env jquery */
 /* globals loadImage */
 
 $(document).ready(function() {

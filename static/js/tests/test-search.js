@@ -1,6 +1,3 @@
-/* eslint-env node */
-/* eslint-env mocha */
-
 var assert = require('assert');
 var fs = require('fs');
 
